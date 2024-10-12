@@ -20,12 +20,15 @@ ul {
 }
 body {
   position: relative;
+  display: flex;
   justify-content: center;
   margin: 0;
   font-family:"Red Hat Display", sans-serif;
 background-color: #E0E8FF;
 }
+
 .background-movile{
+
   opacity: 1;
 }
 @media screen and(width>768px){
@@ -63,9 +66,9 @@ opacity: 1;
 
 @media screen and(width>768px){
   .card{
-    position: absolute;
-    margin-left: 495px;
-    
+    display: flex;
+    justify-content: center;
+  
 }
 }
 .title{
