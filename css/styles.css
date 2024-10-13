@@ -27,7 +27,7 @@ body {
 background-color: #E0E8FF;
 }
 
-.background-movile{
+.background-movile{ 
 
   opacity: 1;
 }
@@ -124,7 +124,15 @@ opacity: 1;
   font-size: 13px;
   font-weight: 700;
   color: #382AE1;
-  margin-left: 50px;
+  margin-left: auto;
+}
+@media (hover:hover){
+  .link:hover{
+    font-size: 14px;
+    font-weight:700 ;
+    color: #766CF1;
+    text-decoration: none;
+  }
 }
 .pay{
   display: flex;
@@ -136,6 +144,11 @@ opacity: 1;
   width: 279px;
   height: 50px;
   box-shadow:rgb(56 42 225/0.2) 0 20px 20px ;
+} 
+@media (hover:hover){
+  .pay:hover{
+    background-color: #766CF1;
+  }
 }
 .payment{
   text-decoration: none;
@@ -148,4 +161,9 @@ opacity: 1;
   font-size: 15px;
   font-weight: 900;
   text-decoration: none;
+ }
+ @media (hover:hover){
+  .cancel:hover{
+    color: #1F2E55;
+  }
  }
